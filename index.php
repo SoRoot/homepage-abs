@@ -14,7 +14,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- link href="<?php bloginfo('style.css');?> <! " rel="stylesheet" -->
+     <!--link href="<!--?php bloginfo('style.css');? --> <! " rel="stylesheet" -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,8 +23,8 @@
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <?php wp_enqueue_script("jquery"); ?>
-    <?php wp_head(); ?>
+    <!--?php wp_enqueue_script("jquery"); ?-->
+    <!--?php wp_head(); ?-->
 
 </head>
 
@@ -35,12 +35,9 @@
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		    <span class="sr-only">Toggle navigation</span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
+		<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 		</button>
-		<a class="navbar-brand page-scroll" href="#page-top">AKUSTIK BAUPHYSIK SCHOENAU</a>
+		<a class="navbar-brand page-scroll" href="#page-top">AKUSTIK BAUPHYSIK SCHÖNAU</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,16 +65,55 @@
     <header>
 	<div class="header-content">
 	    <div class="header-content-inner">
+
 		<h2>25 Jahre Erfahrung</h2>
 		<h2>Beratung und Planung Akustik und Bauphysik</h2>
 		<hr>
-		<div id="flip">
-			<p><i class="fa fa-chevron-right fa-rotate-90" aria-hidden="true"></i> &nbsp; Schallschutz Raumakustik</p>
+
+		<div class="row row-drop">
+			<div class="col-lg-8 col-lg-offset-2 text-center" id="accordion">
+				<div class="col-md-4">
+					<div class="accordionheader">
+						<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Schallschutz</p>
+					</div>
+					<div class="accordionbody">
+						<ul class="text-faded text-left center-points">
+							<li>Bauakustik</li>
+							<li>Schallimmissionsschutz</li>
+							<li>technische Akustik</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="accordionheader">
+						<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Akustische Messungen</p>
+					</div>
+					<div class="accordionbody">
+						<ul class="text-faded text-left center-points">
+							<li>Luft- und Trittschalldämmung</li>
+							<li>Schalldruckpegel</li>
+							<li>raumakustische Parameter</li>
+							<li>Messungen nach TA-Lärm</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="accordionheader">
+						<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Thermische Bauakustik</p>
+					</div>
+					<div class="accordionbody">
+						<ul class="text-faded text-left center-points">
+							<li>Wärmeschutz</li>
+							<li>Energiebilanzierung</li>
+							<li>Feuchteschutz und Abdichtungstechnik</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
 		</div>
-		<div id="panel">
-			<p>Bauakustik, Schallimmissionsschutz, technische Akustik, Raumakustik</p>
-		</div>
-		<p>Akustische Messungen Thermische Bauphysik</p>
 		<a href="#about" class="btn btn-primary btn-xl page-scroll">Erfahren Sie mehr</a>
 	    </div>
 	</div>
@@ -124,7 +160,7 @@
 		    </div>
 
 		    <div class="col-md-3 colmdd-offset-1 ">
-			<img src="<?php bloginfo('template_directory'); ?>/img/potrait.png" class="img-responsive" alt=""/>
+			<img src="img/potrait.png" class="img-responsive" alt=""/>
 		    </div>
 
 	    </div>
@@ -135,8 +171,8 @@
 	<div class="container-fluid">
 		    <div class="row no-gutter popup-gallery">
 			<div class="col-md-12">
-			    <a href="<?php bloginfo('template_directory'); ?>/img/project1.png" class="portfolio-box">
-				<img src="<?php bloginfo('template_directory'); ?>/img/project1.png" class="img-responsive" alt="">
+			    <a class="portfolio-box" href="img/project1.png">
+				<img class="img-responsive" src="img/project1.png" alt="">
 				<div class="portfolio-box-caption">
 				    <div class="portfolio-box-caption-content">
 					<div class="project-category text-faded">
@@ -177,22 +213,23 @@
     </section>
 
     <!-- jQuery -->
-    //<script src="js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    //<script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    //<script src="js/jquery.easing.min.js"></script>
-    //<script src="js/jquery.fittext.js"></script>
-    //<script src="js/wow.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    //<script src="js/creative.js"></script>
+    <script src="js/creative.js"></script>
 
-    //<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
-    <?php wp_footer(); ?>
+    <!--?php wp_footer(); ?-->
 
 </body>
 
