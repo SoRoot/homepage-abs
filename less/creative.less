@@ -127,7 +127,7 @@ section {
 			}
 		}
 		&.affix {
-			background-color: white;
+			background-color: @theme-fourth;
 			border-color: fade(@theme-dark, 5%);
 			.navbar-header .navbar-brand {
 				color: @theme-primary;
@@ -155,14 +155,13 @@ header {
 	width: 100%;
 	min-height: auto;
 	.background-cover;
-	background-position: center;
-	background-image: url('../../img/header.jpg');
+	background-color: @theme-third;
 	text-align: center;
 	color: white;
 	.header-content {
 		position: relative;
 		text-align: center;
-		padding: 100px 15px 100px;
+		padding: 100px 15px 100px !important;
 		width: 100%;
 		.header-content-inner {
 			h1 {
@@ -180,6 +179,9 @@ header {
 				font-size: 16px;
 				margin-bottom: 50px;
 			}
+			.row-drop {
+				padding-bottom: 30px;
+			}
 		}
 	}
 	@media (min-width: 768px) {
@@ -192,14 +194,8 @@ header {
 			transform: translateY(-50%);
 			padding: 0 50px;
 			.header-content-inner {
-				max-width: 1000px;
-				margin-left: auto;
-				margin-right: auto;
 				p {
 					font-size: 18px;
-					max-width: 80%;
-					margin-left: auto;
-					margin-right: auto;
 				}
 			}
 		}
@@ -364,16 +360,15 @@ body {
 	background-color: @theme-fourth;
 }
 
-.row-drop {
-	padding-bottom: 30px;
-}
-
 #accordion {
 	cursor: pointer;
 	width: 100%;
 	border: none;
-	outline: none;
 	transition: 0.4s;
+}
+
+:focus {
+	outline: none;
 }
 
 #parag {
@@ -403,8 +398,3 @@ body {
 .ui-state-hover {
 	background-color: rgba(255, 255, 255, 0.2);
 }
-
-.accordion-header-active .accordionheader {
-  box-shadow: none;
-}
-

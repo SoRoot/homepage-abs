@@ -115,7 +115,7 @@ section {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: #B8B8B2;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
@@ -143,15 +143,14 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url('../../img/header.jpg');
+  background-color: #CBCAC3;
   text-align: center;
   color: white;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 100px 15px 100px !important;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -169,6 +168,9 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+header .header-content .header-content-inner .row-drop {
+  padding-bottom: 30px;
+}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -181,16 +183,8 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
     padding: 0 50px;
   }
-  header .header-content .header-content-inner {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   header .header-content .header-content-inner p {
     font-size: 18px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .section-heading {
@@ -411,15 +405,14 @@ body {
 #contact {
   background-color: #B8B8B2;
 }
-.row-drop {
-  padding-bottom: 30px;
-}
 #accordion {
   cursor: pointer;
   width: 100%;
   border: none;
-  outline: none;
   transition: 0.4s;
+}
+:focus {
+  outline: none;
 }
 #parag {
   margin: 8px;
@@ -444,7 +437,4 @@ body {
 }
 .ui-state-hover {
   background-color: rgba(255, 255, 255, 0.2);
-}
-.accordion-header-active .accordionheader {
-  box-shadow: none;
 }
