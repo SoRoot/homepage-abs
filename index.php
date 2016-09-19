@@ -44,7 +44,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a class="page-scroll" href="#about">About</a>
+							<a class="page-scroll" href="#about">Philosophie</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#services">Services</a>
@@ -53,7 +53,7 @@
 							<a class="page-scroll" href="#portfolio">Portfolio</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#contact">Contact</a>
+							<a class="page-scroll" href="#contact">Kontakt</a>
 						</li>
 					</ul>
 				</div>
@@ -67,7 +67,7 @@
 				<div class="header-content-inner">
 
 					<h2>25 Jahre Erfahrung</h2>
-					<h2>Beratung und Planung Akustik und Bauphysik</h2>
+					<h2>Akustik und Bauphysik</h2>
 					<hr>
 
 					<div class="container">
@@ -117,7 +117,7 @@
 							</div>
 						</div>
 					</div>
-					<a href="#about" class="btn btn-primary btn-xl page-scroll">Erfahren Sie mehr</a>
+					<a href="#about" class="btn btn-primary btn-xl page-scroll">Meine Philosphie</a>
 				</div>
 			</div>
 		</header>

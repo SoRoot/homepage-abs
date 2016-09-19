@@ -19,7 +19,7 @@ hr {
 }
 
 hr.light {
-	border-color: white;
+	border-color: @theme-white;
 }
 
 a {
@@ -51,11 +51,11 @@ p, li {
 
 .bg-dark {
 	background-color: @theme-dark;
-	color: white;
+	color: @theme-white;
 }
 
 .text-faded {
-	color: fade(white, 70%);
+	color: fade(@theme-white, 70%);
 }
 
 section {
@@ -111,19 +111,19 @@ section {
 	}
 	@media (min-width: 768px) {
 		background-color: transparent;
-		border-color: fade(white, 30%);
+		border-color: fade(@theme-white, 30%);
 		.navbar-header .navbar-brand {
-			color: fade(white, 70%);
+			color: fade(@theme-white, 70%);
 			&:hover,
 			&:focus {
-				color: white;
+				color: @theme-white;
 			}
 		}
 		.nav > li > a,
 		.nav > li > a:focus {
-			color: fade(white, 70%);
+			color: fade(@theme-white, 70%);
 			&:hover {
-				color: white;
+				color: @theme-white;
 			}
 		}
 		&.affix {
@@ -158,7 +158,7 @@ header {
 	background-position: center;
 	background-image: url('../../img/header.jpg');
 	text-align: center;
-	color: white;
+	color: @theme-white;
 	.header-content {
 		position: relative;
 		text-align: center;
@@ -176,23 +176,20 @@ header {
 			}
 			p {
 				font-weight: 300;
-				color: fade(white, 70%);
+				color: fade(@theme-white, 70%);
 				font-size: 16px;
 				margin-bottom: 50px;
 			}
 			.row-drop {
-				padding-bottom: 30px;
+				padding-bottom: 80px;
 			}
 		}
 	}
 	@media (min-width: 768px) {
 		min-height: 100%;
 		.header-content {
-			position: absolute;
+			position: relative;
 			top: 50%;
-			-webkit-transform: translateY(-50%);
-			-ms-transform: translateY(-50%);
-			transform: translateY(-50%);
 			padding: 0 50px;
 			.header-content-inner {
 				p {
@@ -226,7 +223,7 @@ header {
 	max-width: 650px;
 	margin: 50px auto;
 	.portfolio-box-caption {
-		color: white;
+		color: @theme-white;
 		opacity: 0;
 		display: block;
 		background: fade(@theme-primary, 90%);
@@ -294,11 +291,11 @@ header {
 
 // Button Styles
 .btn-default {
-	.button-variant(@theme-dark;white;white);
+	.button-variant(@theme-dark;@theme-white;@theme-white);
 }
 
 .btn-primary {
-	.button-variant(white;@theme-primary;@theme-primary);
+	.button-variant(@theme-white;@theme-primary;@theme-primary);
 }
 
 .btn {
@@ -316,24 +313,24 @@ header {
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
-	color: white;
+	color: @theme-white;
 	text-shadow: none;
 	background: @theme-dark;
 }
 
 ::selection {
-	color: white;
+	color: @theme-white;
 	text-shadow: none;
 	background: @theme-dark;
 }
 
 img::selection {
-	color: white;
+	color: @theme-white;
 	background: transparent;
 }
 
 img::-moz-selection {
-	color: white;
+	color: @theme-white;
 	background: transparent;
 }
 
