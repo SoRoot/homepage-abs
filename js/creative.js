@@ -29,11 +29,11 @@
 
 	// Fit Text Plugin for Main Header
 	$("h1").fitText(
-			1.2, {
-				minFontSize: '35px',
-				maxFontSize: '65px'
-			}
-		       );
+		1.2, {
+			minFontSize: '35px',
+			maxFontSize: '65px'
+		}
+	);
 
 	// Offset for Main Navigation
 	$('#mainNav').affix({
@@ -75,6 +75,22 @@
 			return false; // Cancel the default action
 		}
 
+	});
+
+	// Initialize and Configure Magnific Popup Lightbox Plugin
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">Das Bild #%curr%</a> konnte nicht geladen werden.'
+		}
 	});
 
 

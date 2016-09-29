@@ -44,13 +44,13 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a class="page-scroll" href="#about">Philosophie</a>
+							<a class="page-scroll" href="#projects">Projekte</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#services">Services</a>
+							<a class="page-scroll" href="#expierience">Erfahrung</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#portfolio">Portfolio</a>
+							<a class="page-scroll" href="#about">Über mich</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#contact">Kontakt</a>
@@ -66,7 +66,7 @@
 			<div class="header-content">
 				<div class="header-content-inner">
 
-					<h2>25 Jahre Erfahrung</h2>
+					<h3>25 Jahre Erfahrung</h3>
 					<h2>Akustik und Bauphysik</h2>
 					<hr>
 
@@ -76,7 +76,7 @@
 
 								<div class="col-md-4">
 									<div class="accordionheader">
-										<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Schallschutz</p>
+										<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Schallschutz & Raumakustik</p>
 									</div>
 									<div class="accordionbody">
 										<ul class="text-faded text-left center-points">
@@ -117,63 +117,17 @@
 							</div>
 						</div>
 					</div>
-					<a href="#about" class="btn btn-primary btn-xl page-scroll">Meine Philosphie</a>
+					<a href="#projects" class="btn btn-primary btn-xl page-scroll">Meine Projekte</a>
 				</div>
 			</div>
 		</header>
 
-		<section class="bg-primary" id="about">
-			<div class="container">
-					<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h2 class="section-heading">Was ich gelernt habe</h2>
-						<hr class="light">
-						<ul class="text-faded text-left center-points">
-						<li>miteinander sprechen ist das A und O guten Gelingens</li>
-						<li>die Intuition offen zu halten für auch unkonventionelle Lösungen bringt meistens schöne Ergebnisse</li>
-						<li>Normen sind wichtig, aber nicht das Wichtigste</li>
-						</ul>
-						<a href="#services" class="page-scroll btn btn-default btn-xl">Get Started!</a>
-				</div>
-					</div>
-			</div>
-		</section>
-
-		<section id="services">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Über mich</h2>
-						<hr class="primary">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-7 col-md-offset-1">
-						<div class="classification-box">
-							<p>Beratender Ingenieur</p>
-							<p>Bayerische Ingenieurekammer Bau</p>
-							<p>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</p>
-							<p>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</p>
-						</div>
-						<div class="shortcv-box">
-							<p>gelernter Bau- und Möbelschreiner</p>
-							<p>Dipl-Ing. (FH) Holztechnik</p>
-							<p>Fachhochschule Rosenheim</p>
-						</div>
-					</div>
-					<div class="col-md-3 colmdd-offset-1 ">
-						<img src="img/potrait.png" class="img-responsive" alt=""/>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="no-padding" id="portfolio">
+		<section class="no-padding" id="projects">
 			<div class="container-fluid">
 				<div class="row no-gutter popup-gallery">
-					<div class="col-md-12">
-						<a class="portfolio-box" href="img/project1.png">
-						<img class="img-responsive" src="img/project1.png" alt="">
+					<div class="col-md-6">
+						<a class="portfolio-box" href="img/projects/1-1.jpeg">
+						<img class="img-responsive" src="img/projects/1-1.jpeg" alt="">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -186,27 +140,89 @@
 						</div>
 						</a>
 					</div>
+					<div class="col-md-6">
+						<a class="portfolio-box" href="img/projects/1-2.jpeg">
+						<img class="img-responsive" src="img/projects/1-2.jpeg" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Die neue Unterdecke
+								</div>
+								<div class="project-name">
+									Mit Lichtvoute in Kantenabsorber und Downlights
+								</div>
+							</div>
+						</div>
+						</a>
+					</div>
+		</section>
+
+		<section class="bg-primary" id="expierience">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h4 class="section-heading">Was ich gelernt habe aus unzähligen Projekten, vom Einfamilienhaus bis zum größten Bauvorhaben der Bunderepublik:</h4>
+						<hr class="light">
+						<ul class="text-dark text-left center-points">
+						<li>miteinander sprechen ist das A und O guten Gelingens</li>
+						<li>die Intuition offen zu halten für auch unkonventionelle Lösungen bringt meistens schöne Ergebnisse</li>
+						<li>Normen sind wichtig, aber nicht das Wichtigste</li>
+						</ul>
+						<a href="#about" class="page-scroll btn btn-default btn-xl">Mehr über mich</a>
+					</div>
 				</div>
 			</div>
 		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="section-heading">Über mich</h2>
+						<hr class="primary">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-1 cv-m">
+						<div class="classification-box">
+							<p>Beratender Ingenieur</p>
+							<p>Bayerische Ingenieurekammer Bau</p>
+							<p>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</p>
+							<p>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</p>
+						</div>
+						<div class="shortcv-box">
+							<p>gelernter Bau- und Möbelschreiner</p>
+							<p>Dipl-Ing. (FH) Holztechnik</p>
+							<p>Fachhochschule Rosenheim</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-offset-1 cv-m">
+						<img src="img/potrait.jpg" class="img-responsive img-ajust" alt=""/>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<a href="#contact" class="page-scroll btn btn-default btn-xl">Kontakt</a>
+			</div>
+		</section>
+
 
 		<section id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h2 class="section-heading">Let's Get In Touch!</h2>
+						<h2>AKUSTIK BAUPHYSIK SCHÖNAU</h2>
 						<hr class="primary">
-						<h2>AKUSTIK BAUPHYSIK SCHOENAU</h2>
 						<p>Carl-Georg Ungerland</p>
 						<p>Schwarzwaldstraße 5</p>
 						<p>93464 Tiefenbach (Oberpfalz)</p>
 					</div>
-					<div class="col-lg-4 col-lg-offset-2 text-center">
-						<i class="fa fa-phone fa-3x wow bounceIn"></i>
-						<p>09673 9109849</p>
+					<div class="col-lg-4 col-lg-offset-2 text-center cv-m">
+						<i class="fa fa-phone fa-3x"></i>
+						<p><a href="tel:09673-9109849">09673-9109849</a></p>
 					</div>
-					<div class="col-lg-4 text-center">
-						<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+					<div class="col-lg-4 text-center cv-m">
+						<i class="fa fa-envelope-o fa-3x"></i>
 						<p><a href="mailto:your-email@your-domain.com">c-g.ungerland@akustik-sca.de</a></p>
 					</div>
 				</div>
@@ -219,16 +235,16 @@
 		<!-- Bootstrap Core JavaScript -->
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 
+		<!-- Magnific-popup -->
+		<script src="magnific-popup/jquery.magnific-popup.js"></script>
+
 		<!-- Plugin JavaScript -->
 		<script src="js/jquery.easing.min.js"></script>
 		<script src="js/jquery.fittext.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-		<script src="js/wow.min.js"></script>
 
 		<!-- Custom Theme JavaScript -->
 		<script src="js/creative.js"></script>
-
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
 		<!--?php wp_footer(); ?-->
 

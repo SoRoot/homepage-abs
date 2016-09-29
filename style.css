@@ -21,4 +21,5 @@ Version: 1.0
 /*!-- Custom CSS --*/
 @import url('bootstrap/css/creative.css');
 
-
+/*!-- Responsive lightbox --*/
+@import url('magnific-popup/magnific-popup.css');

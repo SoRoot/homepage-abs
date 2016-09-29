@@ -18,10 +18,6 @@ hr {
 	max-width: 50px;
 }
 
-hr.light {
-	border-color: @theme-white;
-}
-
 a {
 	.transition-all;
 	color: @theme-primary;
@@ -36,17 +32,31 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, {
 	.sans-serif-font;
+	line-height: 26px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-weight: 600;
 }
 
 p, li {
-	margin: 8px;
+	/*margin: 8px;*/
 	font-size: 16px;
 }
 
+p {
+	margin: 0px;
+}
+
 .bg-primary {
-	background-color: @theme-primary;
+	background-color: @theme-third;
+	color: @theme-dark;
 }
 
 .bg-dark {
@@ -55,7 +65,11 @@ p, li {
 }
 
 .text-faded {
-	color: fade(@theme-white, 70%);
+	color: @theme-white;
+}
+
+.text-dark {
+	color: @theme-dark;
 }
 
 section {
@@ -113,17 +127,17 @@ section {
 		background-color: transparent;
 		border-color: fade(@theme-white, 30%);
 		.navbar-header .navbar-brand {
-			color: fade(@theme-white, 70%);
+			color: @theme-white;
 			&:hover,
 			&:focus {
-				color: @theme-white;
+				color: @theme-primary;
 			}
 		}
 		.nav > li > a,
 		.nav > li > a:focus {
-			color: fade(@theme-white, 70%);
+			color: @theme-white;
 			&:hover {
-				color: @theme-white;
+				color: @theme-primary;
 			}
 		}
 		&.affix {
@@ -176,7 +190,7 @@ header {
 			}
 			p {
 				font-weight: 300;
-				color: fade(@theme-white, 70%);
+				color: @theme-white;
 				font-size: 16px;
 				margin-bottom: 50px;
 			}
@@ -221,7 +235,7 @@ header {
 	position: relative;
 	display: block;
 	max-width: 650px;
-	margin: 50px auto;
+	margin: auto;
 	.portfolio-box-caption {
 		color: @theme-white;
 		opacity: 0;
@@ -291,7 +305,7 @@ header {
 
 // Button Styles
 .btn-default {
-	.button-variant(@theme-dark;@theme-white;@theme-white);
+	.button-variant(@theme-white;@theme-primary;@theme-primary);
 }
 
 .btn-primary {
@@ -346,11 +360,15 @@ body {
 	margin-bottom: 30px;
 }
 
-#services {
+.img-ajust {
+	max-width: 200px;
+}
+
+#about{
 	background-color: @theme-secondary;
 }
 
-#portfolio {
+#projects {
 	background-color: @theme-third;
 }
 
@@ -390,9 +408,14 @@ body {
 }
 
 .ui-state-active, .accordionbody {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(170, 170, 170, 0.5);
 }
 
 .ui-state-hover {
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(170, 170, 170, 0.5);
+}
+
+.cv-m {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
