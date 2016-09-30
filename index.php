@@ -82,7 +82,7 @@
 										<ul class="text-faded text-left center-points">
 											<li>Bauakustik</li>
 											<li>Schallimmissionsschutz</li>
-											<li>technische Akustik</li>
+											<li>Technische Akustik</li>
 										</ul>
 									</div>
 								</div>
@@ -95,7 +95,7 @@
 										<ul class="text-faded text-left center-points">
 											<li>Luft- und Trittschalldämmung</li>
 											<li>Schalldruckpegel</li>
-											<li>raumakustische Parameter</li>
+											<li>Raumakustische Parameter</li>
 											<li>Messungen nach TA-Lärm</li>
 										</ul>
 									</div>
@@ -126,8 +126,8 @@
 			<div class="container-fluid">
 				<div class="row no-gutter popup-gallery">
 					<div class="col-md-6">
-						<a class="portfolio-box" href="img/projects/1-1.jpeg">
-						<img class="img-responsive" src="img/projects/1-1.jpeg" alt="">
+						<a class="portfolio-box" href="img/projects/1-1.jpg">
+						<img class="img-responsive" src="img/projects/1-1.jpg" alt="">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -141,15 +141,15 @@
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a class="portfolio-box" href="img/projects/1-2.jpeg">
-						<img class="img-responsive" src="img/projects/1-2.jpeg" alt="">
+						<a class="portfolio-box" href="img/projects/2-1.jpg">
+						<img class="img-responsive" src="img/projects/2-1.jpg" alt="">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
-									Die neue Unterdecke
+									Das Palais, Stadtschloss in Köln Bayenthal
 								</div>
 								<div class="project-name">
-									Mit Lichtvoute in Kantenabsorber und Downlights
+									Planung und Beratung für höchste Schallschutzstufe
 								</div>
 							</div>
 						</div>
@@ -164,8 +164,8 @@
 						<h4 class="section-heading">Was ich gelernt habe aus unzähligen Projekten, vom Einfamilienhaus bis zum größten Bauvorhaben der Bunderepublik:</h4>
 						<hr class="light">
 						<ul class="text-dark text-left center-points">
-						<li>miteinander sprechen ist das A und O guten Gelingens</li>
-						<li>die Intuition offen zu halten für auch unkonventionelle Lösungen bringt meistens schöne Ergebnisse</li>
+						<li>Miteinander sprechen ist das A und O guten Gelingens</li>
+						<li>Die Intuition offen zu halten für auch unkonventionelle Lösungen bringt meistens schöne Ergebnisse</li>
 						<li>Normen sind wichtig, aber nicht das Wichtigste</li>
 						</ul>
 						<a href="#about" class="page-scroll btn btn-default btn-xl">Mehr über mich</a>
@@ -185,15 +185,18 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-1 cv-m">
 						<div class="classification-box">
-							<p>Beratender Ingenieur</p>
-							<p>Bayerische Ingenieurekammer Bau</p>
-							<p>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</p>
-							<p>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</p>
+							<ul class="text-dark">
+							<li>Beratender Ingenieur</li>
+							<li>Bayerische Ingenieurekammer Bau</li>
+							<li>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</li>
+							<li>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</li>
+							</ul>
 						</div>
 						<div class="shortcv-box">
-							<p>gelernter Bau- und Möbelschreiner</p>
-							<p>Dipl-Ing. (FH) Holztechnik</p>
-							<p>Fachhochschule Rosenheim</p>
+							<ul class="text-dark">
+							<li>Gelernter Bau- und Möbelschreiner</li>
+							<li>Dipl-Ing. Holztechnik FH Rosenheim</li>
+							</ul>
 						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-1 cv-m">
@@ -213,9 +216,13 @@
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h2>AKUSTIK BAUPHYSIK SCHÖNAU</h2>
 						<hr class="primary">
-						<p>Carl-Georg Ungerland</p>
-						<p>Schwarzwaldstraße 5</p>
-						<p>93464 Tiefenbach (Oberpfalz)</p>
+						<a href="https://www.google.de/maps/place/Schwarzwaldstraße+5,+93464+Tiefenbach/@49.46392,12.592126,17z/data=!3m1!4b1!4m5!3m4!1s0x47a0065ab0f123f5:0xc7d68d0c33cd8bb!8m2!3d49.46392!4d12.59432" target="_blank">
+							<div>
+								<p>Carl-Georg Ungerland</p>
+								<p>Schwarzwaldstraße 5</p>
+								<p>93464 Tiefenbach (Oberpfalz)</p>
+							</div>
+						</a>
 					</div>
 					<div class="col-lg-4 col-lg-offset-2 text-center cv-m">
 						<i class="fa fa-phone fa-3x"></i>
@@ -223,7 +230,7 @@
 					</div>
 					<div class="col-lg-4 text-center cv-m">
 						<i class="fa fa-envelope-o fa-3x"></i>
-						<p><a href="mailto:your-email@your-domain.com">c-g.ungerland@akustik-sca.de</a></p>
+						<p><a href="mailto:c-g.ungerland@akustik-sca.de">c-g.ungerland@akustik-sca.de</a></p>
 					</div>
 				</div>
 			</div>

@@ -38,11 +38,12 @@ h4 {
 }
 p,
 li {
-  /*margin: 8px;*/
+  margin: 8px;
   font-size: 16px;
+  line-height: 22px;
 }
 p {
-  margin: 0px;
+  margin: 8px;
 }
 .bg-primary {
   background-color: #CBCAC3;
@@ -412,7 +413,7 @@ body {
   background-color: #CBD7D7;
 }
 #projects {
-  background-color: #CBCAC3;
+  background-color: #B8B8B2;
 }
 #contact {
   background-color: #B8B8B2;
