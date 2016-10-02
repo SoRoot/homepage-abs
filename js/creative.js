@@ -89,12 +89,12 @@
 			preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
 		},
 		image: {
+  	  titleSrc: function(item) {
+				return item.el.find('img').attr('title') + '<small>' + item.el.find('img').attr('alt') + '</small>';
+			},
 			tError: '<a href="%url%">Das Bild #%curr%</a> konnte nicht geladen werden.'
 		}
 	});
 
-
-	// Initialize WOW.js Scrolling Animations
-	new WOW().init();
 
 })(jQuery); // End of use strict

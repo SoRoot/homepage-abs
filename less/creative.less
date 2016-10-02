@@ -37,6 +37,10 @@ h6, {
 	line-height: 26px;
 }
 
+h2 {
+	line-height: 32px;
+}
+
 h3 {
 	font-size: 26px;
 }
@@ -363,7 +367,14 @@ body {
 
 .img-ajust {
 	max-width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	@media (min-width: 992px) { 
+		margin-right: 150px;
+	}
 }
+
 
 #about{
 	background-color: @theme-secondary;
@@ -385,7 +396,7 @@ body {
 }
 
 :focus {
-	outline: none;
+	outline: none !important;
 }
 
 #parag {

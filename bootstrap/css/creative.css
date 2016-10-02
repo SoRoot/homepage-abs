@@ -30,6 +30,9 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   line-height: 26px;
 }
+h2 {
+  line-height: 32px;
+}
 h3 {
   font-size: 26px;
 }
@@ -408,6 +411,14 @@ body {
 }
 .img-ajust {
   max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px) {
+  .img-ajust {
+    margin-right: 150px;
+  }
 }
 #about {
   background-color: #CBD7D7;
@@ -425,7 +436,7 @@ body {
   transition: 0.4s;
 }
 :focus {
-  outline: none;
+  outline: none !important;
 }
 #parag {
   margin: 8px;
