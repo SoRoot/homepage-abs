@@ -35,7 +35,10 @@
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand page-scroll" href="#page-top">AKUSTIK BAUPHYSIK SCHÖNAU</a>
+					<a class="navbar-brand page-scroll" href="#page-top">
+						AKUSTIK BAUPHYSIK SCHOENAU
+						<div class="logo"></div>		
+					</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -159,7 +162,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h4 class="section-heading">Was ich gelernt habe aus unzähligen Projekten, vom Einfamilienhaus bis zum größten Bauvorhaben der Bunderepublik:</h4>
+						<h4 class="section-heading">Was ich gelernt habe aus unzähligen Projekten, vom Einfamilienhaus bis zum größten Bauvorhaben der Bundesrepublik:</h4>
 						<hr class="light">
 						<ul class="text-dark text-left center-points">
 						<li>Miteinander sprechen ist das A und O guten Gelingens</li>
@@ -212,7 +215,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h2>AKUSTIK BAUPHYSIK SCHÖNAU</h2>
+						<h2>AKUSTIK BAUPHYSIK SCHOENAU</h2>
 						<hr class="primary">
 						<a href="https://www.google.de/maps/place/Schwarzwaldstraße+5,+93464+Tiefenbach/@49.46392,12.592126,17z/data=!3m1!4b1!4m5!3m4!1s0x47a0065ab0f123f5:0xc7d68d0c33cd8bb!8m2!3d49.46392!4d12.59432" target="_blank">
 							<div>
