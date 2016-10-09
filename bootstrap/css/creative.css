@@ -78,12 +78,23 @@ section {
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #A36437;
+  padding-right: 120px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: url('../../img/Logo_ABS_hb.png');
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 300px, 0px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
+  background: url('../../img/Logo_ABS_db.png');
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 280px, 0px;
   color: #7d4d2a;
 }
 .navbar-default .nav > li {
@@ -115,11 +126,20 @@ section {
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
+    padding-right: 120px;
+    background: url('../../img/Logo_ABS_w.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 300px, 0px;
     color: #FFF;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
     color: #A36437;
+    background: url('../../img/Logo_ABS_hb.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 280px, 0px;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -135,14 +155,20 @@ section {
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #A36437;
+    padding-right: 120px;
+    background: url('../../img/Logo_ABS_hb.png');
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 232px, 0px;
     font-size: 14px;
-  }
-  .navbar-default.affix .navbar-header .navbar-brand .logo {
-    background-image: url('../../img/Logo_ABS_w.png');
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #7d4d2a;
+    background: url('../../img/Logo_ABS_db.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: 212px, 0px;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {

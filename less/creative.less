@@ -95,11 +95,22 @@ section {
 	.transition-all;
 	.navbar-header .navbar-brand {
 		color: @theme-primary;
+		padding-right: 120px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+		background: url('../../img/Logo_ABS_hb.png');
+		background-size: 60px;
+		background-repeat: no-repeat;
+		background-position: 300px, 0px;
 		.sans-serif-font;
 		font-weight: 700;
 		text-transform: uppercase;
 		&:hover,
 		&:focus {
+			background: url('../../img/Logo_ABS_db.png');
+			background-size: 150px;
+			background-repeat: no-repeat;
+			background-position: 280px, 0px;
 			color: darken(@theme-primary, 10%);
 		}
 	}
@@ -132,10 +143,19 @@ section {
 		background-color: transparent;
 		border-color: fade(@theme-white, 30%);
 		.navbar-header .navbar-brand {
+			padding-right: 120px;
+			background: url('../../img/Logo_ABS_w.png');
+			background-size: 60px;
+			background-repeat: no-repeat;
+			background-position: 300px, 0px;
 			color: @theme-white;
 			&:hover,
 			&:focus {
 				color: @theme-primary;
+				background: url('../../img/Logo_ABS_hb.png');
+				background-size: 150px;
+				background-repeat: no-repeat;
+				background-position: 280px, 0px;
 			}
 		}
 		.nav > li > a,
@@ -150,13 +170,19 @@ section {
 			border-color: fade(@theme-dark, 5%);
 			.navbar-header .navbar-brand {
 				color: @theme-primary;
+				padding-right: 120px;
+				background: url('../../img/Logo_ABS_hb.png');
+				background-size: 60px;
+				background-repeat: no-repeat;
+				background-position: 232px, 0px;
 				font-size: 14px;
-				.logo {
-					background-image: url('../../img/Logo_ABS_w.png');
-				}
 				&:hover,
 				&:focus {
 					color: darken(@theme-primary, 10%);
+					background: url('../../img/Logo_ABS_db.png');
+					background-size: 150px;
+					background-repeat: no-repeat;
+					background-position: 212px, 0px;
 				}
 			}
 			.nav > li > a,
@@ -169,6 +195,7 @@ section {
 		}
 	}
 }
+
 
 // Homepage Header
 
