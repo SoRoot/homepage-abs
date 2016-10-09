@@ -13,7 +13,7 @@
 		<title>Akustik-SCA</title>
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="style.css">
+		<!--<link rel="stylesheet" href="style.css">-->
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,6 +22,7 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
+		<?php wp_head(); ?>
 
 	</head>
 
@@ -125,8 +126,8 @@
 			<div class="container-fluid">
 				<div class="row no-gutter popup-gallery">
 					<div class="col-md-6">
-						<a class="portfolio-box" href="img/projects/1-1.jpg">
-						<img class="img-responsive" title="Neugestaltung Saal der Freiwilligen Feuerwehr Schönau" alt="Komplette Planung Raumakustik, Beleuchtung und Trockenbau" src="img/projects/1-1.jpg">
+						<a class="portfolio-box" href="<?php bloginfo('template_directory'); ?>/img/projects/1-1.jpg">
+						<img class="img-responsive" title="Neugestaltung Saal der Freiwilligen Feuerwehr Schönau" alt="Komplette Planung Raumakustik, Beleuchtung und Trockenbau" src="<?php bloginfo('template_directory'); ?>/img/projects/1-1.jpg">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -140,8 +141,8 @@
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a class="portfolio-box" href="img/projects/2-1.jpg">
-						<img class="img-responsive" title="Das Palais, Stadtschloss in Köln Bayenthal" alt="Planung und Beratung für höchste Schallschutzstufe" src="img/projects/2-1.jpg">
+						<a class="portfolio-box" href="<?php bloginfo('template_directory'); ?>/img/projects/2-1.jpg">
+						<img class="img-responsive" title="Das Palais, Stadtschloss in Köln Bayenthal" alt="Planung und Beratung für höchste Schallschutzstufe" src="<?php bloginfo('template_directory'); ?>/img/projects/2-1.jpg">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -199,7 +200,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-1 cv-m">
-						<img src="img/potrait.jpg" class="img-responsive img-ajust" alt=""/>
+						<img src="<?php bloginfo('template_directory'); ?>/img/potrait.jpg" class="img-responsive img-ajust" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -236,22 +237,23 @@
 		</section>
 
 		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
+		<!--<script src="js/jquery.js"></script>-->
 
 		<!-- Bootstrap Core JavaScript -->
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
 
 		<!-- Magnific-popup -->
-		<script src="magnific-popup/jquery.magnific-popup.js"></script>
+		<!--<script src="magnific-popup/jquery.magnific-popup.js"></script>-->
 
 		<!-- Plugin JavaScript -->
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/jquery.fittext.js"></script>
-		<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+		<!--<script src="js/jquery.easing.min.js"></script>-->
+		<!--<script src="js/jquery.fittext.js"></script>-->
+		<!--<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>-->
 
 		<!-- Custom Theme JavaScript -->
-		<script src="js/creative.js"></script>
+		<!--<script src="js/creative.js"></script>-->
 
+		<?php wp_footer(); ?>
 
 	</body>
 </html>

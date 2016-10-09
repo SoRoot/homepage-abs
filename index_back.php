@@ -13,7 +13,7 @@
 		<title>Akustik-SCA</title>
 
 		<!-- CSS -->
-		<!--<link rel="stylesheet" href="style.css">-->
+		<link rel="stylesheet" href="style.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +22,6 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-		<?php wp_head(); ?>
 
 	</head>
 
@@ -37,7 +36,6 @@
 					</button>
 					<a class="navbar-brand page-scroll" href="#page-top">
 						AKUSTIK BAUPHYSIK SCHOENAU
-						<div class="logo"></div>		
 					</a>
 				</div>
 
@@ -127,8 +125,8 @@
 			<div class="container-fluid">
 				<div class="row no-gutter popup-gallery">
 					<div class="col-md-6">
-						<a class="portfolio-box" href="<?php bloginfo('template_directory'); ?>/img/projects/1-1.jpg">
-						<img class="img-responsive" title="Neugestaltung Saal der Freiwilligen Feuerwehr Schönau" alt="Komplette Planung Raumakustik, Beleuchtung und Trockenbau" src="<?php bloginfo('template_directory'); ?>/img/projects/1-1.jpg">
+						<a class="portfolio-box" href="img/projects/1-1.jpg">
+						<img class="img-responsive" title="Neugestaltung Saal der Freiwilligen Feuerwehr Schönau" alt="Komplette Planung Raumakustik, Beleuchtung und Trockenbau" src="img/projects/1-1.jpg">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -142,8 +140,8 @@
 						</a>
 					</div>
 					<div class="col-md-6">
-						<a class="portfolio-box" href="<?php bloginfo('template_directory'); ?>/img/projects/2-1.jpg">
-						<img class="img-responsive" title="Das Palais, Stadtschloss in Köln Bayenthal" alt="Planung und Beratung für höchste Schallschutzstufe" src="<?php bloginfo('template_directory'); ?>/img/projects/2-1.jpg">
+						<a class="portfolio-box" href="img/projects/2-1.jpg">
+						<img class="img-responsive" title="Das Palais, Stadtschloss in Köln Bayenthal" alt="Planung und Beratung für höchste Schallschutzstufe" src="img/projects/2-1.jpg">
 						<div class="portfolio-box-caption">
 							<div class="portfolio-box-caption-content">
 								<div class="project-category text-faded">
@@ -201,7 +199,7 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-md-offset-1 cv-m">
-						<img src="<?php bloginfo('template_directory'); ?>/img/potrait.jpg" class="img-responsive img-ajust" alt=""/>
+						<img src="img/potrait.jpg" class="img-responsive img-ajust" alt=""/>
 					</div>
 				</div>
 			</div>
@@ -217,7 +215,7 @@
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h2>AKUSTIK BAUPHYSIK SCHOENAU</h2>
 						<hr class="primary">
-						<a href="https://www.google.de/maps/place/Schwarzwaldstraße+5,+93464+Tiefenbach/@49.46392,12.592126,17z/data=!3m1!4b1!4m5!3m4!1s0x47a0065ab0f123f5:0xc7d68d0c33cd8bb!8m2!3d49.46392!4d12.59432" target="_blank">
+						<a href="https://www.google.de/maps/place/AKUSTIK+BAUPHYSIK+SCHOENAU/@49.4638991,12.5927375,17z/data=!4m5!3m4!1s0x47a0065ab0f123f5:0x8a320a9f760d8d1a!8m2!3d49.46392!4d12.59432" target="_blank">
 							<div>
 								<p>Carl-Georg Ungerland</p>
 								<p>Schwarzwaldstraße 5</p>
@@ -238,23 +236,22 @@
 		</section>
 
 		<!-- jQuery -->
-		<!--<script src="js/jquery.js"></script>-->
+		<script src="js/jquery.js"></script>
 
 		<!-- Bootstrap Core JavaScript -->
-		<!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 
 		<!-- Magnific-popup -->
-		<!--<script src="magnific-popup/jquery.magnific-popup.js"></script>-->
+		<script src="magnific-popup/jquery.magnific-popup.js"></script>
 
 		<!-- Plugin JavaScript -->
-		<!--<script src="js/jquery.easing.min.js"></script>-->
-		<!--<script src="js/jquery.fittext.js"></script>-->
-		<!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>-->
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
 		<!-- Custom Theme JavaScript -->
-		<!--<script src="js/creative.js"></script>-->
+		<script src="js/creative.js"></script>
 
-		<?php wp_footer(); ?>
 
 	</body>
 </html>
