@@ -81,13 +81,59 @@ section {
 	padding: 80px 0;
 }
 
+@media (max-width: 423px) {
+	header {
+		padding-top: 80px;
+	}
+}
+
+@media (min-width: 424px) and (max-width: 513px) {
+	header {
+		padding-top: 50px;
+	}
+}
 
 .no-padding {
 	padding: 0;
 }
 
 // Navigation
-
+@media (max-width: 821px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
 .navbar-default {
 	background-color: @theme-fourth;
 	border-color: fade(@theme-dark, 5%);
@@ -96,6 +142,7 @@ section {
 	.navbar-header .navbar-brand {
 		color: @theme-primary;
 		padding-right: 120px;
+		height: 56px;
 		padding-top: 18px;
 		padding-bottom: 18px;
 		background: url('../../img/Logo_ABS_hb.png');
@@ -105,13 +152,21 @@ section {
 		.sans-serif-font;
 		font-weight: 700;
 		text-transform: uppercase;
-		&:hover,
-		&:focus {
+		&:hover {
 			background: url('../../img/Logo_ABS_db.png');
 			background-size: 150px;
 			background-repeat: no-repeat;
 			background-position: 280px, 0px;
 			color: darken(@theme-primary, 10%);
+		}
+	}
+	@media (max-width: 423px) {
+		.navbar-header .navbar-brand {
+			height: 75px;
+			background-position: 195px, 0px;
+			&:hover {
+				background-position: 175px, 0px;
+			}
 		}
 	}
 	.nav {
@@ -139,7 +194,7 @@ section {
 			}
 		}
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 821px) {
 		background-color: transparent;
 		border-color: fade(@theme-white, 30%);
 		.navbar-header .navbar-brand {
@@ -149,8 +204,7 @@ section {
 			background-repeat: no-repeat;
 			background-position: 300px, 0px;
 			color: @theme-white;
-			&:hover,
-			&:focus {
+			&:hover {
 				color: @theme-primary;
 				background: url('../../img/Logo_ABS_hb.png');
 				background-size: 150px;
@@ -176,8 +230,7 @@ section {
 				background-repeat: no-repeat;
 				background-position: 232px, 0px;
 				font-size: 14px;
-				&:hover,
-				&:focus {
+				&:hover {
 					color: darken(@theme-primary, 10%);
 					background: url('../../img/Logo_ABS_db.png');
 					background-size: 150px;
@@ -234,7 +287,7 @@ header {
 			}
 		}
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 821px) {
 		min-height: 100%;
 		.header-content {
 			position: relative;
@@ -308,7 +361,7 @@ header {
 			opacity: 1;
 		}
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 821px) {
 		.portfolio-box-caption {
 			.portfolio-box-caption-content {
 				.project-category {
