@@ -78,6 +78,12 @@ section {
 .no-padding {
   padding: 0;
 }
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
 @media (max-width: 821px) {
   .navbar-header {
     float: none;
@@ -108,8 +114,8 @@ section {
     float: none;
   }
   .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
   .collapse.in {
     display: block !important;
@@ -137,7 +143,8 @@ section {
   font-weight: 700;
   text-transform: uppercase;
 }
-.navbar-default .navbar-header .navbar-brand:hover {
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:active {
   background: url('../../img/Logo_ABS_db.png');
   background-size: 150px;
   background-repeat: no-repeat;
@@ -149,7 +156,8 @@ section {
     height: 75px;
     background-position: 195px, 0px;
   }
-  .navbar-default .navbar-header .navbar-brand:hover {
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:active {
     background-position: 175px, 0px;
   }
 }
@@ -189,7 +197,8 @@ section {
     background-position: 300px, 0px;
     color: #FFF;
   }
-  .navbar-default .navbar-header .navbar-brand:hover {
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:active {
     color: #A36437;
     background: url('../../img/Logo_ABS_hb.png');
     background-size: 150px;
@@ -217,7 +226,8 @@ section {
     background-position: 232px, 0px;
     font-size: 14px;
   }
-  .navbar-default.affix .navbar-header .navbar-brand:hover {
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:active {
     color: #7d4d2a;
     background: url('../../img/Logo_ABS_db.png');
     background-size: 150px;

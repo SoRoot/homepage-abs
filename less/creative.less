@@ -98,6 +98,13 @@ section {
 }
 
 // Navigation
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	}
+}
+
 @media (max-width: 821px) {
   .navbar-header {
       float: none;
@@ -127,9 +134,9 @@ section {
       float: none;
   }
   .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
+      padding-top: 18px;
+      padding-bottom: 18px;
+	}
   .collapse.in{
       display:block !important;
   }
@@ -152,7 +159,8 @@ section {
 		.sans-serif-font;
 		font-weight: 700;
 		text-transform: uppercase;
-		&:hover {
+		&:hover,
+		&:active {
 			background: url('../../img/Logo_ABS_db.png');
 			background-size: 150px;
 			background-repeat: no-repeat;
@@ -164,7 +172,8 @@ section {
 		.navbar-header .navbar-brand {
 			height: 75px;
 			background-position: 195px, 0px;
-			&:hover {
+			&:hover,
+			&:active {
 				background-position: 175px, 0px;
 			}
 		}
@@ -204,7 +213,8 @@ section {
 			background-repeat: no-repeat;
 			background-position: 300px, 0px;
 			color: @theme-white;
-			&:hover {
+			&:hover,
+			&:active {
 				color: @theme-primary;
 				background: url('../../img/Logo_ABS_hb.png');
 				background-size: 150px;
@@ -230,7 +240,8 @@ section {
 				background-repeat: no-repeat;
 				background-position: 232px, 0px;
 				font-size: 14px;
-				&:hover {
+				&:hover,
+				&:active {
 					color: darken(@theme-primary, 10%);
 					background: url('../../img/Logo_ABS_db.png');
 					background-size: 150px;
