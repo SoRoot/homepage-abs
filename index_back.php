@@ -189,6 +189,7 @@
 							<li>Bayerische Ingenieurekammer Bau</li>
 							<li>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</li>
 							<li>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</li>
+							<li>DAkkS-zertifizierter Prüfer Gebäudeluftdurchlässigkeit Blower Door</li>
 							</ul>
 						</div>
 						<div class="shortcv-box">

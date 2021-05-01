@@ -13,7 +13,7 @@
 		<title>Akustik-SCA</title>
 
 		<!-- CSS -->
-		<link rel="stylesheet" href="style.css">
+		<!--<link rel="stylesheet" href="style.css">-->
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,7 +66,7 @@
 			<div class="header-content">
 				<div class="header-content-inner">
 
-					<h3>25 Jahre Erfahrung</h3>
+					<h3>29 Jahre Erfahrung</h3>
 					<h2>AKUSTIK und BAUPHYSIK</h2>
 					<hr>
 
@@ -103,13 +103,13 @@
 
 								<div class="col-md-4">
 									<div class="accordionheader">
-										<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Thermische Bauakustik</p>
+										<p id="parag"><i class="fa fa-chevron-right" id="arrow" aria-hidden="true"></i> &nbsp;Thermische Bauphysik</p>
 									</div>
 									<div class="accordionbody">
 										<ul class="text-faded text-left center-points">
-											<li>Wärmeschutz</li>
+											<li>Wärme- und Feuchteschutz</li>
 											<li>Energiebilanzierung</li>
-											<li>Feuchteschutz und Abdichtungstechnik</li>
+											<li>Blower-Door Messungen</li>
 										</ul>
 									</div>
 								</div>
@@ -186,15 +186,15 @@
 					<div class="col-md-6 col-md-offset-1 cv-m">
 						<div class="classification-box">
 							<ul class="text-dark">
-							<li>Beratender Ingenieur</li>
-							<li>Bayerische Ingenieurekammer Bau</li>
-							<li>Nachweisberechtigter für Schall- Wärmeschutz Ingenieurkammer Hessen</li>
+							<li>Beratender Ingenieur Bayerische Ingenieurekammer Bau</li>
+							<li>Nachweisberechtigter für Schall- und Wärmeschutz Ingenieurkammer Hessen</li>
 							<li>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</li>
+							<li>zertifizierter Prüfer Gebäudeluftdichtheit Blower-Door (DAkkS+FLiB)</li>
 							</ul>
 						</div>
 						<div class="shortcv-box">
 							<ul class="text-dark">
-							<li>Gelernter Bau- und Möbelschreiner</li>
+							<li>gelernter Bau- und Möbelschreiner</li>
 							<li>Dipl-Ing. Holztechnik FH Rosenheim</li>
 							</ul>
 						</div>
@@ -226,11 +226,11 @@
 					</div>
 					<div class="col-lg-4 col-lg-offset-2 text-center cv-m">
 						<i class="fa fa-phone fa-3x"></i>
-						<p><a href="tel:09673-9109849">09673-9109849</a></p>
+						<p><a>09673-9109849</a></p>
 					</div>
 					<div class="col-lg-4 text-center cv-m">
 						<i class="fa fa-envelope-o fa-3x"></i>
-						<p><a href="mailto:c-g.ungerland@akustik-sca.de">c-g.ungerland@akustik-sca.de</a></p>
+						<p><a>c-g.ungerland(at)akustik-sca.de</a></p>
 					</div>
 				</div>
 			</div>
