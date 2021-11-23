@@ -82,7 +82,7 @@
 										<ul class="text-faded text-left center-points">
 											<li>Bauakustik</li>
 											<li>Schallimmissionsschutz</li>
-											<li>Technische Akustik</li>
+											<li>Raumakustische Simulation</li>
 										</ul>
 									</div>
 								</div>
@@ -94,9 +94,9 @@
 									<div class="accordionbody">
 										<ul class="text-faded text-left center-points">
 											<li>Luft- und Trittschalldämmung</li>
+											<li>Fassadenschalldämmung</li>
 											<li>Schalldruckpegel</li>
 											<li>Raumakustische Parameter</li>
-											<li>Messungen nach TA-Lärm</li>
 										</ul>
 									</div>
 								</div>
@@ -186,10 +186,12 @@
 					<div class="col-md-6 col-md-offset-1 cv-m">
 						<div class="classification-box">
 							<ul class="text-dark">
+							<li>VMPA anerkannte Schallschutzprüfstelle (VMPA-SPG-232-21-BY)</li>
+							<li>zertifizierter Prüfer Gebäudeluftdichtheit Blower-Door (FLiB + DAkkS)</li>
 							<li>Beratender Ingenieur Bayerische Ingenieurekammer Bau</li>
 							<li>Nachweisberechtigter für Schall- und Wärmeschutz Ingenieurkammer Hessen</li>
 							<li>Sachverständiger für Schall- und Wärmeschutz Ingenieurkammer-Bau Nordrhein-Westfalen</li>
-							<li>zertifizierter Prüfer Gebäudeluftdichtheit Blower-Door (DAkkS+FLiB)</li>
+							
 							</ul>
 						</div>
 						<div class="shortcv-box">
